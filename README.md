@@ -1,8 +1,8 @@
 # ALS_vs_GradientDescent
 Matrix Factorization (ALS vs Gradient Descent)
 
-<a href="https://ibb.co/b28BMgQ"><img src="https://i.ibb.co/dLz2w0j/Screenshot-12-25-2024-11-06-37-PM.png" alt="Screenshot-12-25-2024-11-06-37-PM" border="0"></a>
-
+<a href="https://ibb.co/b28BMgQ"><img src="https://i.ibb.co/dLz2w0j/Screenshot-12-25-2024-11-06-37-PM.png" alt="Matrix Factorization using Gradient Descent" border="0"></a>
+<a href="https://ibb.co/rwrpSY1"><img src="https://i.ibb.co/FDTYM2j/Screenshot-12-25-2024-11-05-46-PM.png" alt="Matrix Factorization using ALS" border="0"></a>
 
 This code implements two collaborative filtering approaches for movie rating prediction: Gradient Descent and Alternating Least Squares (ALS). Both methods use matrix factorization to learn latent factors for users and items.
 
@@ -46,3 +46,5 @@ The Gradient Descent model uses a dynamic learning rate and gradient clipping fo
 The ALS model alternates between updating user and item factors, potentially converging faster.
 Both models handle the cold start problem by using global means for unknown user-item pairs.
 The code provides a comprehensive implementation of two popular collaborative filtering techniques, allowing for comparison of their performance on the movie rating prediction task.
+
+<a href="https://ibb.co/wKzvx6Z"><img src="https://i.ibb.co/rZwW1yK/Screenshot-12-25-2024-11-07-11-PM.png" alt="Data Distribution for the Matrix Factorication Task" border="0"></a>
